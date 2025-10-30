@@ -6,13 +6,10 @@
 #     print(a + b + c)
 
 
-a = int(input())
-b = int(input())
-c = int(input())
+side1 = int(input())
+side2 = int(input())
+side3 = int(input())
 
-if a > 0 and b > 0 and c > 0:
-    print(a + b + c)
-else :
-    print(" ")
+print(side1 + side2 + side3)
     
 

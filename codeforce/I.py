@@ -1,4 +1,4 @@
 magical_number = int(input())
-bob_come_back = int(input())
+number_of_day = int(input())
 
-print(magical_number * 3 ** bob_come_back)
+print(magical_number * 3 ** number_of_day)

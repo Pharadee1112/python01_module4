@@ -1,5 +1,5 @@
-n = int(input())
+number = int(input())
 
-while n > 0 :
-    print(n)
-    n -= 1
+while number > 0 :
+    print(number)
+    number -= 1

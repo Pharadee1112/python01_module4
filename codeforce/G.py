@@ -1,2 +1,2 @@
 flat_number = int(input())
-print(flat_number // 10)
+print(flat_number % 10)

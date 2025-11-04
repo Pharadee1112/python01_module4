@@ -1,5 +1,5 @@
 all_number = int(input())
-element = input().split()
+element_list = input().split()
 
-for index in element[::2]:
-    print(index, end=" ")
+for character in element_list[::2]:
+    print(character, end=" ")

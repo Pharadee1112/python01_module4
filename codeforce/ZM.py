@@ -1,9 +1,9 @@
 number = int(input())
-element = input().split()
+element = input().split() #เป็น list
 
 
 for index in range(number): # number = ขนาดของ element อยู่เเล้ว ดังนั้นเอามาใช้เเทน len ได้เลย
-    element[index] = int(element[index])
+    element[index] = int(element[index]) #แปลงค่าของ index ให้เป็น int เเล้วเก็บที่เดิมก็คือ list
     # print(element[index])
 
 for index in range(number - 1): # เช็ก 4 รอบ เพราะว่าตัวปัจจุบันไปเช็กตัวด้านหน้า จนตัวสุดท้ายก็จะเช็กกับตัวก่อนหน้า
